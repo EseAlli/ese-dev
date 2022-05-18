@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div className="md:mx-8 mt-12 py-12">
+    <div className="md:mx-8 mt-12 py-12 mb-8">
         <div className="flex flex-col md:flex-row md:justify-between mb-8">
             <div className="basis-2/5 p-4">
                 <p className="text-black text-2xl md:text-4xl md:leading-tight font-semibold">In addition to software engineering, I also have an interest in Machine Learning.</p>          
