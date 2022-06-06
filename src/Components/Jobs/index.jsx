@@ -2,12 +2,12 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div className="md:mx-8 mt-12 py-12 mb-8">
+    <div className="md:mx-6 md:mt-12 md:py-12 md:mb-8 p-2">
         <div className="flex flex-col md:flex-row md:justify-between mb-8">
-            <div className="basis-2/5 p-4">
+            <div className="basis-2/5 text-center md:text-left">
                 <p className="text-black text-2xl md:text-4xl md:leading-tight font-semibold">In addition to software engineering, I also have an interest in Machine Learning.</p>          
             </div>
-            <div className="basis-2/4 p-4">
+            <div className="basis-2/4 pt-3 text-center md:text-left">
                 <p className=" text-[1.4rem] font-bold">In addition to software engineering, I also have an interest in Machine Learning. I enjoy the idea of analyzing and generating useful insights from data. I have developed an RNN model for flood susceptibility prediction based on weather and land use data.Skilled in Python, Django, JavaScript, NodeJS, ReactJS, TailwindCSS, Bootstrap, Postgresql, MYSQL, GIT and AWS</p>
             </div>
         </div>
