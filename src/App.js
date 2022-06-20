@@ -1,10 +1,10 @@
 import '../src/styles/index.scss';
 import 'font-awesome/css/font-awesome.min.css';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Jobs from './components/Jobs';
-import Projects from './components/Projects'
+import Footer from './Components/Footer';
+import Nav from './Components/Nav';
+import Hero from './Components/Hero';
+import Jobs from './Components/Jobs';
+import Projects from './Components/Projects'
 
 function App() {
   return (
