@@ -12,7 +12,7 @@ const index = () => {
               key={index}
               className="w-full md:w-[1000px] flex-none ml-2 m-5"
             >
-              <div className="project-1 h-[300px] md:h-[600px] transition hover:delay-100 hover:filter-none group relative bg-no-repeat bg-center bg-cover hover:bg-auto">
+              <div className="project-1 h-[300px] md:h-[600px] transition hover:delay-100 hover:filter-none group relative bg-no-repeat bg-center bg-cover hover:bg-auto z-10">
                 <div className="invisible group-hover:visible transition-all duration-500 top-0 absolute group-hover:top-1/3 left-1/3 group-hover:left-[40%]">
                   <div className="m-auto bg-black/60 border border-transparent rounded-full backdrop-grayscale h-[100px] w-[100px] group-hover:h-[200px] group-hover:w-[200px] flex justify-center items-center">
                     <p className="font-semibold group-hover:text-xl text-[#E5E5E5]">

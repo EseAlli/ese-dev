@@ -4,3 +4,12 @@
     filter: grayscale(100%)
 }
 
+.tag{
+    border: 35px solid transparent;
+    padding: 19px 26px;
+    border-image-source: url(../assets/tga.png);
+    z-index: 1;
+    border-image-repeat: stretch;  
+    border-image-slice: 28%;
+}
+

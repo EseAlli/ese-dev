@@ -25,7 +25,7 @@ const index = () => {
           return (
             <div
               key={index}
-              className="flex justify-between border border-t-black text-black last-of-type:border-b-black border-r-0 border-l-0 md:border-0"
+              className="flex justify-between border border-t-black text-black border-r-0 border-l-0 md:border-0"
             >
               <p className="py-5 md:text-right basis-2/5 uppercase font-bold text-lg">
                 {experience.duration}

@@ -6,11 +6,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #F7F5F5; */
+  background-color: rgba(247, 245, 245, 0.38);
   color: #808080;
   background-image: url('./assets/Noise.png');
-  mix-blend-mode: color-burn;
-  /* opacity: 0.38; */
+  /* mix-blend-mode: color-burn; */
+  z-index: 0;
 }
 
 code {

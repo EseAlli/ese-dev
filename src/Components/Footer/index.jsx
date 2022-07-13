@@ -30,18 +30,28 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="socials text-white mt-5">
+        <div className="socials text-white mt-7 flex justify-between">
           <div className="md:px-32 self-start">
-            <ul className="grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-4 grid-rows-1 md:p-4 place-items-start md:place-items-center">
-              <li className="md:text-xl text-xs font-semibold">LinkedIn</li>
-              <li className="md:text-xl text-xs font-semibold">Twitter</li>
+            <ul className="grid gap-12 md:gap-4 grid-cols-3 md:grid-cols-4 grid-rows-1 md:p-4 place-items-start md:place-items-center">
+              <li className="md:text-xl text-xs font-semibold">
+                <a href="https://www.linkedin.com/in/ese-alli/" target="_blank">
+                  LinkedIn
+                </a>
+              </li>
+              <li className="md:text-xl text-xs font-semibold"><a href="#">Twitter</a></li>
+              <li className="md:text-xl text-xs font-semibold">Blog</li>
               <li className="md:text-xl text-xs font-semibold">Instagram</li>
-              <li className="md:text-xl text-xs font-semibold">GitHub</li>
+              <li className="md:text-xl text-xs font-semibold"><a href='https://github.com/EseAlli' target='_blank'>Github</a></li>
             </ul>
           </div>
           <div className="md:hidden">
-            <div className="text-white border rounded-full border-white">
-              <p className="p-2 md:text-xl">Top</p>
+            <div className="text-white my-auto border rounded-full border-white text-center m-4">
+              <div className="px-6 py-3" role="button" onClick={scrollToTop}>
+                <p className="text-xl">
+                  <i className="text-white fa fa-regular fa-arrow-up"></i>
+                </p>
+                <p className="text-sm">Top</p>
+              </div>
             </div>
           </div>
         </div>
